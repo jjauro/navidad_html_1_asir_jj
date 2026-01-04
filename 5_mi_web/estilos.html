@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<style>
+    .centradotexto {text-align: center;}
+    .arialfont {font-family: Arial;}
+    .courierfont {font-family: Courier;}
+    .tamanotitulo {font-size: 24px;}
+    .tamanotexto {font-size: 12px;}
+    .espaciadoextra {letter-spacing: 6px;}
+    .identacion {text-indent: 16px;}
+    .subrayado {text-decoration: underline;}
+    .fuentecolor {color:darkorchid;}
+    .fondocolor {background-color:gold ;}
+    .tabla td {width: 50px; height: 50px;}
+    .tablados td {width: 100px; height: 100px;}
+    .filapar tr:nth-child(even) {background-color: aquamarine; }
+    .filaimpar tr:nth-child(odd) {background-color: darkgrey;}
+    .cabecera th {color: white;background-color: black;}
+</style>
+<head>
+    <style>
+
+    </style>
+</head>
+<html lang="es">
+    <head>
+        <title>Hojas de Estilo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2 style="text-align: center; color:#0000ff">Noticias del día.</h2>
+        <p style="color:#888888;background-color:#ffffdd">
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+            Aquí la descripción de la noticia.
+        </p>
+        <p class="courierfont tamanotitulo espaciadoextra">
+            Texto de Título
+        </p>
+        <p class="courierfont tamanotexto">
+            Este texto forma parte del cuerpo de la noticia.
+        </p>
+        <p class="identacion fuentecolor fondocolor">
+            En este caso, este texto aparecerá con la primera línea identada 4 píxeles 
+            hacia la derecha. El resto de líneas aparecerán alineadas con la alineación inicial.
+            Para ello <u>Jose</u> nos ha indicado el pdf que debíamos consultar.
+        </p>
+
+        <span class="fondocolor">
+            Mensaje dentro de &lt;span&gt;, color de fondo solo afecta a etiqueta span
+            <h3>Elemento 01</h3>
+            <p>Elemento 02</p>
+        </span>
+
+        <div class="fondocolor">
+            Mensaje dentro de &lt;div&gt;, color de fondo afecta a etiqueta div y los elementos que contiene
+            <h3>Elemento 01</h3>
+            <p>Elemento 02</p>
+        </div>
+
+        <table class="tabla cabecera filaimpar filapar centradotexto">
+            <th colspan="4">Filas pares e impares</th>
+            <tr><td>1.1</td><td>1.2</td><td>1.3</td><td>1.4</td></tr>
+            <tr><td>2.1</td><td>2.2</td><td>2.3</td><td>2.4</td></tr>
+            <tr><td>3.1</td><td>3.2</td><td>3.3</td><td>3.4</td></tr>
+            <tr><td>4.1</td><td>4.2</td><td>4.3</td><td>4.4</td></tr>
+        </table>
+        <br><br>
+        <h1 style="color: darkorchid;background-color: aqua;">Texto de etiqueta &lt;h1&gt;</h1>
+        <h2 style="color: darkorchid;background-color: darkorange;">Texto de etiqueta &lt;h2&gt;</h2>
+        <h3 style="color: darkorchid;background-color: gold;">Texto de etiqueta &lt;h3&gt;</h3>
+        <br><br>
+
+        <p>
+            <a href="..\index.html">Volver al índice</a>
+        </p>
+
+    </body>
+</html>

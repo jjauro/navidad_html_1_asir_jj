@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+	<!--Ejercicio de Lenguaje de Marcas
+		Configuración de la Cabecera y creación
+		de Tablas y Formularios-->
+<style>
+  .centrado {
+    text-align: center;
+  }
+</style>
+
+<html>
+<head>
+ <a name="AnclaInicio"></a>
+ <h2 style="text-align: center;">Lenguaje de Marcas HTML - TABLAS</h2>
+ <title>Lenguaje de Marcas HTML - TABLAS</title>
+ 
+ <meta charset="UTF-8">
+ <meta name="author" content="Juanjo">
+ <meta name="keywords" content="html,marcas,tablas">
+</head>
+<body>
+	<br><br><br>
+		<!--Mostramos la información en formato Tabla-->
+	Ahora mostraremos la información en formato <strong>Tabla</strong> con las asignaturas del curso.<br><br>
+	<table border="4">
+		<caption>Asignaturas del curso ASIR 1.</caption>
+		<tr>
+			<th class="centrado">ASIGNATURA</th><th>PROFESOR</th>
+		</tr>
+		<tr>
+			<td>Fundamentos de hardware</td><td class="centrado">Jesús</td>
+		</tr>
+		<tr>
+			<td>Gestión de bases de datos</td><td class="centrado">Carlos</td>
+		</tr>
+		<tr>
+			<td>Implantación de sistemas operativos</td><td class="centrado">Juan</td>
+		</tr>
+		<tr>
+			<td>Planificación y Administración de Redes</td><td class="centrado">Emilio</td>
+		</tr>
+		<tr>
+			<td>Formación y orientación laboral</td><td class="centrado">Mónica</td>
+		</tr>
+		<tr>
+			<td>Iniciación a la programación</td><td class="centrado">Carmen</td>
+		</tr>
+		<tr>
+			<td>Lenguajes de marcas y sistemas de información</td><td class="centrado">Jose</td>
+		</tr>
+	</table>
+	<br><br><br>
+		<!--La siguienta tabla contará con celdas combinadas en una sola-->
+	<table border="7">
+		<caption>Asignaturas del curso ASIR 1. (Combinación de celdas)</caption>
+		<tr>
+			<th class="centrado">ASIGNATURA</th><th>PROFESOR</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Fundamentos de hardware</td><td class="centrado">Jesús</td>
+			<tr><td class="centrado">Félix</td></tr>
+		</tr>
+		<tr>
+			<td>Gestión de bases de datos</td><td class="centrado">Carlos</td>
+		</tr>
+		<tr>
+			<td>Implantación de sistemas operativos</td><td class="centrado">Juan</td>
+		</tr>
+		<tr>
+			<td>Planificación y Administración de Redes</td><td class="centrado">Emilio</td>
+		</tr>
+		<tr>
+			<td>Formación y orientación laboral</td><td class="centrado">Mónica</td>
+		</tr>
+		<tr>
+			<td>Iniciación a la programación</td><td class="centrado">Carmen</td>
+		</tr>
+		<tr>
+			<td>Lenguajes de marcas y sistemas de información</td><td class="centrado">Jose</td>
+		</tr>
+	</table>
+	
+	<br><br><br>
+	<dl>
+		<dt>C++</dt>
+		<dd>Es un lenguaje de programación, diseñado a mediados de los años 1980, por Bjarne Stroustrup.</dd>
+		<dt>Java</dt>
+		<dd>Es un lenguaje de programación orientado a objetos desarrollado por Sun Microsystems.</dd>
+		<dt>JavaScript</dt>
+		<dd>Es un lenguaje interpretado, es decir, que no requiere compilación, utilizado en webs con lenguaje C</dd>		
+	</dl>
+	<br><br><br>
+	
+	Ahora vamos a anidar un lista no ordenada dentro de otra lista ordenada.<br>
+	<ol>
+		<li>España</li>
+			<ul>
+				<li>Madrid</li>
+				<li>Barcelona</li>
+				<li>Sevilla</li>
+			</ul>
+		<li>Francia</li>
+			<ul>
+				<li>París</li>
+				<li>Nantes</li>
+				<li>Orleans</li>
+			</ul>
+		<li>Alemania</li>
+			<ul>
+				<li>Berlín</li>
+				<li>Colonia</li>
+				<li>Munich</li>
+			</ul>
+	</ol>
+	<br><br><br>	
+	
+	Es el turno de escribir caracteres especiales:
+	<ul>
+		<li>Así escribiríamos el caracter Menor Que: &amp lt head &amp gt; => Resultado: &lt;head&gt;</li>
+		<li>Símbolo del CopyRight: &copy;</li>
+		<li>Símbolo del Euro: &euro;</li>
+	</ul>
+
+	<br><br><br>	
+
+	Ahora vamos a mostrar el Código de una Página HTML:
+	<br>
+	&lt;!DOCTYPE html&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Este sería el contenido de la Cabecera.<br>	
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Este sería el contenido del Cuerpo del documento.<br>	
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+	&lt;/html&gt;<br>
+
+	<p>
+        <a href="..\index.html">Volver al índice</a>
+    </p>
+	
+</html>
